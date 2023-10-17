@@ -619,7 +619,7 @@ main{
 .discord-icon{
   vertical-align: middle;
 }
-@media screen and (max-width: 480px){
+@media screen and (max-width: 768px){
   .is-drawerActive{
     overflow: hidden;
   }
