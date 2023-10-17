@@ -687,19 +687,19 @@ tr{
   }
 
   .chapter{
-      width: 27%;
+      width: 26%;
   }
   .section{
       width: 36%;
   }
   .question{
-    width: 7%;
+      width: 7%;
   }
   .practice{
       width: 14%;
   }
   .workbook{
-    width: 15%;
+      width: 16%;
   }
 }
 
