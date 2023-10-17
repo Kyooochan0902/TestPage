@@ -611,6 +611,11 @@ main{
 .discord-icon{
   vertical-align: middle;
 }
+@media screen and (max-width: 480px){
+  .is-drawerActive{
+    overflow: hidden;
+  }
+}
 
 /*数学部分*/
 table{
