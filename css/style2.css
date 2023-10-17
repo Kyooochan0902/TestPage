@@ -493,6 +493,14 @@ body[data-scroll="true"]:not(.is-drawerActive) .p-header__logo{
     display: block;
   }
 }
+@media screen and (max-height:650px){
+  .p-header__menu-list {
+    padding-block: calc(15/1080*100vh);
+  }
+  .p-header__menu-item {
+    padding: calc(7/1080*100vh) 0;
+  }
+}
 
 /*------------------------------------------
  *  TOPページ
