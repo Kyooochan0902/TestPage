@@ -685,6 +685,9 @@ tr{
   th, td {
       padding: 10px 6px;
   }
+  .padding-r-none{
+    padding-right: 0;
+  }
 
   .chapter{
       width: 26%;
