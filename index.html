@@ -21,7 +21,7 @@
             <div class="l-inner p-header__inner">
                 <div class="p-header__logo">
                     <a href="./">
-                        <h1 class="p-header__ttl">とどろき<br class="display-none">英数塾</h1>
+                        <h1 class="p-header__ttl">とどろき英数塾</h1>
                     </a>
                 </div>
                 <div class="p-header__menu-wrapper">
@@ -44,7 +44,7 @@
                 <div class="p-header__sns">
                     <a href="https://discord.com/invite/dCeU9BKnT7" target="_blank" rel="noopener noreferrer">
                         <img src="./img/discord.png" alt="" width="22" height="18">
-                        <span class="p-header__twitter">高専生のDiscord</span>
+                        <span class="p-header__discord">高専生のDiscord</span>
                     </a>
                 </div>
             </div>
@@ -536,7 +536,106 @@
                     <div class="title">
                         新 応用数学 改訂版 （大日本図書）
                     </div>
-                    <div class="u-center">※10月刊行予定<br><br><br><br><br><br></div>
+                    <br>
+                    <div class="table-container">
+                        <table>
+                            <tr>
+                                <th class="cols" colspan="2">単元</th>
+                                <th class="cols" colspan="2">教科書</th>
+                                <th class="cols" colspan="1">問題集</th>
+                            </tr>
+                            <tr>
+                                <td class="chapter" rowspan="3">1章  ベクトル解析</td>
+                                <td class="section">§1  ベクトル関数</td>
+                                <td class="link question"></td>
+                                <td class="link practice"></td>
+                                <td class="link workbook"></td>
+                            </tr>
+                            <tr>
+                                <td>§2  スカラー場とベクトル場</td>
+                                <td class="link"></td>
+                                <td class="link"></td>
+                                <td class="link"></td>
+                            </tr>
+                            <tr>
+                                <td>§3  線積分・面積分</td>
+                                <td class="link"></td>
+                                <td class="link"></td>
+                                <td class="link"></td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">2章  ラプラス変換</td>
+                                <td class="padding-r-none">§1  ラプラス変換の定義と性質</td>
+                                <td class="link"></td>
+                                <td class="link"></td>
+                                <td class="link"></td>
+                            </tr>
+                            <tr>
+                                <td>§2  ラプラス変換の応用</td>
+                                <td class="link"></td>
+                                <td class="link"></td>
+                                <td class="link"></td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">3章  フーリエ解析</td>
+                                <td>§1  フーリエ級数</td>
+                                <td class="link"></td>
+                                <td class="link"></td>
+                                <td class="link"></td>
+                            </tr>
+                            <tr>
+                                <td>§2  フーリエ変換</td>
+                                <td class="link"></td>
+                                <td class="link"></td>
+                                <td class="link"></td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">4章  複素関数</td>
+                                <td>§1  正則関数</td>
+                                <td class="link"></td>
+                                <td class="link"></td>
+                                <td class="link"></td>
+                            </tr>
+                            <tr>
+                                <td>§2  積分</td>
+                                <td class="link"></td>
+                                <td class="link"></td>
+                                <td class="link"></td>
+                            </tr>
+                            <tr>
+                                <td rowspan="5">補章  微分方程式</td>
+                                <td>§1  1章の補足</td>
+                                <td class="link"></td>
+                                <td class="link"></td>
+                                <td class="link"></td>
+                            </tr>
+                            <tr>
+                                <td>§2  2章の補足</td>
+                                <td class="link"></td>
+                                <td class="link"></td>
+                                <td class="link"></td>
+                            </tr>
+                            <tr>
+                                <td>§3  3章の補足</td>
+                                <td class="link"></td>
+                                <td class="link"></td>
+                                <td class="link"></td>
+                            </tr>
+                            <tr>
+                                <td>§4  4章の補足</td>
+                                <td class="link"></td>
+                                <td class="link"></td>
+                                <td class="link"></td>
+                            </tr>
+                            <tr>
+                                <td>§5  微分方程式</td>
+                                <td class="link"></td>
+                                <td class="link"></td>
+                                <td class="link"></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <br>
                 </div>
             </section>
 
@@ -562,27 +661,6 @@
             </section>
         </main>
     </div><!-- /#wrapper -->
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-        // ボタン要素を取得
-            var hamburgerButton = document.getElementById("js-hamburger");
-        
-            // ボタンがクリックされたときの処理を定義
-            hamburgerButton.addEventListener("click", function () {
-            // body要素にクラス "is-drawerActive" を追加
-                document.body.classList.toggle("is-drawerActive");
-            });
-
-            const menu = document.querySelector('.p-header__menu-list');
-            const menuItems = menu.querySelectorAll('a');
-
-            menuItems.forEach(function(item) {
-                item.addEventListener('click', function() {
-                    // メニューがクリックされたら、メニューを閉じる
-                    document.body.classList.toggle("is-drawerActive");
-                });
-            });
-        });
-    </script>
+    <script type="text/javascript" src="./js/script.js"></script>
 </body>
 </html>
