@@ -3,10 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>とどろき英数塾｜旧版ページ</title>
+    <title>とどろき英数塾｜改訂版ページ</title>
     <link rel="stylesheet" href="./css/sanitize.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/style2.css">
+    <meta property="og:locale" content="ja_JP">
+    <meta property="og:title" content="とどろき英数塾｜旧版ページ">
+    <meta property="og:description" content="宇部高専で使用している教科書の少し詳しい解答例など">
+    <meta property="og:url" content="nct.html">
+    <meta property="og:image" content="./img/Thumbnail.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="とどろき英数塾｜旧版ページ">
 </head>
 <body id="top" class="u-fixed-bg">
     <div id="wrapper">
@@ -14,7 +20,7 @@
             <div class="l-inner p-header__inner">
                 <div class="p-header__logo">
                     <a href="./index_old.html">
-                        <h1 class="p-header__ttl">とどろき<br class="display-none">英数塾</h1>
+                        <h1 class="p-header__ttl">とどろき英数塾</h1>
                     </a>
                 </div>
                 <div class="p-header__menu-wrapper">
@@ -37,7 +43,7 @@
                 <div class="p-header__sns">
                     <a href="https://discord.com/invite/dCeU9BKnT7" target="_blank" rel="noopener noreferrer">
                         <img class="discord-icon" src="./img/discord.png" alt="" width="22" height="18">
-                        <span class="p-header__twitter">高専生のDiscord</span>
+                        <span class="p-header__discord">高専生のDiscord</span>
                     </a>
                 </div>
             </div>
@@ -572,31 +578,8 @@
                     </div>
                 </div>
             </section>
-  
-    </main>
-    
+        </main>
     </div><!-- /#wrapper -->
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            // ボタン要素を取得
-            var hamburgerButton = document.getElementById("js-hamburger");
-            
-            // ボタンがクリックされたときの処理を定義
-            hamburgerButton.addEventListener("click", function () {
-                // body要素にクラス "is-drawerActive" を追加
-                document.body.classList.toggle("is-drawerActive");
-            });
-
-            const menu = document.querySelector('.p-header__menu-list');
-            const menuItems = menu.querySelectorAll('a');
-
-            menuItems.forEach(function(item) {
-                item.addEventListener('click', function() {
-                // メニューがクリックされたら、メニューを閉じる
-                    document.body.classList.toggle("is-drawerActive");
-                });
-            });
-        });
-    </script>
+    <script type="text/javascript" src="./js/script.js"></script>
 </body>
 </html>
